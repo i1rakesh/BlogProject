@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  /* a{
+    text-decoration: none;
+    color:#14181f;
+  } */
+  body{
+    background-image: url("/Notes/Resources/pexels-david-bartus-963278.jpg"); 
+    background-size:cover;
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    
+  }
+  nav{
+    background: #171c24;
+    /* display: flex;
+    flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    
+    
+  }
+  nav .logo a{
+      text-decoration: none;
+      padding-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    
+  }
+  .logo a{
+    
+      padding-left: 45%;
+  }
+  .containers{
+      background-color: #171c24;
+      color: white;
+      margin:auto;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      width:40%;
+      border:1px solid grey;
+      padding:10px;
+      border-radius: 8px;
+      box-shadow: 1px 3px 4px 1px;
+  }
+  label{
+      padding-bottom:15px;
+  }
+  input{
+      width:100%;
+      padding:15px;
+      margin:5px 0 22px 0;
+      display: inline-block;
+      border:none;
+      background: #cdcecf;
+      border-radius: 8px;
+  }
+  input:focus{
+     background-color: white;
+     border-style: dashed;
+     border: 2cm black;
+     
+   }
+ .signin-btn{
+     background-color: rgb(125, 185, 241);
+     color: white;
+     padding:15px 70px;
+     border:none;
+     cursor:pointer;
+     width:100%;
+     border-radius: 8px;
+     
+ }
+ .signin-btn:hover{
+     background-color:rgb(69, 159, 243);
+ }
+ a{
+     color: dodgerblue;
+ }
+ p{
+     margin-top:10px;
+ }
+ .footer{ 
+    margin-top:auto;
+    height:80px;
+    padding: 2px;
+    width:100%;
+    bottom:0;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 6px 3px; 
+    border-radius: 6px;
+  }
+  
+  .footer-content-right {
+    padding-right:40px;
+    /* margin-top:10px; */
+    float:right;
+    }
+
+  .footer-content-left{
+      
+      padding:0px 4px 2px 10px;
+      width:fit-content;
+      background-color: #171c24;
+      border-radius: 8px;
+      color:white;
+
+  }
+  
+  .icon-style {
+    height:35px;
+    margin-left:20px;
+    /* margin-top:5px; */
+    
+  }
+  
+  .icon-style:hover {
+    background-color:rgb(10, 154, 243);
+    padding:5px;
+    border-radius: 20px;
+  }
+ 
